@@ -1,0 +1,27 @@
+[
+  {
+    "name": "dual_use",
+    "severity_level": "HIGH",
+    "description": "Requests for information or assistance that has both legitimate and harmful applications. The harm depends on intent and context — the same knowledge can enable protection or enable attack."
+  },
+  {
+    "name": "agentic_misuse",
+    "severity_level": "CRITICAL",
+    "description": "Attempts to exploit AI agent capabilities — tool access, memory, multi-step planning, or autonomous action — to cause harm at scale or bypass human oversight. Elevated severity because agents can act without per-step review."
+  },
+  {
+    "name": "privacy_violation",
+    "severity_level": "HIGH",
+    "description": "Requests that seek to extract, infer, or aggregate personally identifiable information, surveillance capabilities, or data that individuals have a reasonable expectation of controlling."
+  },
+  {
+    "name": "manipulation",
+    "severity_level": "MEDIUM",
+    "description": "Requests designed to produce content that psychologically manipulates, deceives, or coerces individuals or groups — including disinformation, targeted persuasion, and social engineering scripts."
+  },
+  {
+    "name": "unsafe_content",
+    "severity_level": "HIGH",
+    "description": "Requests for content that is directly harmful regardless of use-case framing — including self-harm facilitation, content involving minors, or graphic violence with no legitimate informational purpose."
+  }
+]
